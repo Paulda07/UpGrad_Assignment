@@ -21,3 +21,4 @@ class TodoList(models.Model): #Todolist able name that inherits models.Model
     def __str__(self):
       
         return self.title #name to be shown when called
+
